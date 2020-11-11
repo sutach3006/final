@@ -1,32 +1,32 @@
 const express = require( 'express'); 
 const router = express. Router();
-const myData = require('../data')
+const data = require('../data')
+
+
 
 router.get('/',(req,res)=>{
-    res.render('index',{myData});
+    res.render('index');
 });
 
 /*router.get('/',(req, res )=>{
 res.send( "<h1>My Portfolio</h1>");
 });*/
-
-router.get('/aboutme', (req, res )=>{
-    res.render('about',{myData});
+router.get('/portfolio/about', (req, res )=>{
+    res.render('about',{data});
 });
 
-router.get('/education', (req,res )=>{
-    res.render('education',{myData});
+router.get('/portfolio/contact', (req, res )=>{
+    res.render('contact',{data});
 });
 
-router.get('/workexperience',(req, res )=>{
-    res.render('experience',{myData});
+router.get('/portfolio/skill', (req,res )=>{
+    res.render('skill',{data});
 });
 
-router.get('/skill', (req, res )=>{
-    res.render('skill',{myData});
+router.get('/portfolio/education', (req,res )=>{
+    res.render('education',{data});
 });
 
-router.get('/contact', (req, res )=>{
-    res.render('contact',{myData});
-});
+
+
 module.exports = router;

@@ -1,33 +1,29 @@
 const data = {
-    "fullname" : "Mr. Worawoot Bunsri",
-    "nickname" : "ZBew",
-    "motto" : "When you stop advancing, you’ve already begun to retreat.",
-    "work" : "Student at Software Engineering Program in Nakhon Pathom Rajabhat University",
+    "fullname" : "Mr.sutach chenwiranon",
+    "nickname" : "march",
+    "work" : "Student at Software Engineering in Nakhon Pathom Rajabhat University",
     "aboutme" : {
-        "name" : "Mr.Worawoot Bunsri",
-        "nickname" : "ZBew",
-        "sex" : "Male",
-        "education" : "Songphinongwittaya School",
-        "date" : "Sunday 25th July 1997",
-        "age" : "24 years",
+        "name" : "Mr.sutach chenwiranon",
+        "nickname" : "march",
+        "sex" : "Men",
+        "education" : "thamuangratbumrung School",
+        "date" : "friday 30th June 1995",
+        "age" : "25 years",
         "nationality" : "Thai",
         "race" : "Thai",
         "religion" : "Buddhism",
-        "bloodgroup" : "O",
-        "address" : "323/332 Moo.1 Mueang Borphub  NakhonPathome 73000",
-        "phone" : "0955896970",
-        "email" : "614259053@webmail.npru.ac.th",
-        "characteristic" : "Talk openly",
-        "hobbies" : "Listen to music, See movie, Betta fish farming, Learn more about your interests.",
-        "sport" : "Futsal",
-        "pets" : "dog",
-        "attitude" : "Positive",
-        "motto" : "When you stop advancing, you’ve already begun to retreat."
-    },
+        "bloodgroup" : "b",
+        "address" : "93/4 Moo.1 thungthong thamuang kanchanaburi 71110",
+        "phone" : "0955571804",
+        "email" : "574259126@webmail.npru.ac.th",
+        "hobbies" : "i'm drummer.",
+        "sport" : "Futball",
+        "pets" : "fish"},
+    
     "education" : {
-        "education1" : "kabure School",
-        "education2" : "kabure School",
-        "education3" : "kabure School",
+        "education1" : "thamuangratbumrung School",
+        "education2" : "thamuangratbumrung School",
+        "education3" : "thamuangratbumrung School",
         "education4" : "Nakhon Pathom Rajabhat University"
     },
     "experience" : {
@@ -43,11 +39,11 @@ const data = {
         "json" : "Level-Basic"
     },
     "contact" : {
-        "fb" : "สะ' บิว",
-        "ig" : "im.billyz",
-        "line" : "bew_wrp",
-        "email" : "614259053@webmail.npru.ac.th",
-        "phone" : "0955896970"
+        "fb" : "sutach chenwiranon",
+        "ig" : "mmarch_z",
+        "line" : "sutach_march",
+        "email" : "574259126@webmail.npru.ac.th",
+        "phone" : "0955571804"
     }
 };
 module.exports = data;
